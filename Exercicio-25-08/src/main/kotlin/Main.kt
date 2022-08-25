@@ -27,7 +27,7 @@ fun main() {
                     cliente.addCompra(produto)
                 }
                 2 -> {
-                    print("Digite o produto a ser adicionado: ")
+                    print("Digite o produto a ser removido: ")
                     val produto = readln().toString()
 
                     cliente.removeCompra(produto)
